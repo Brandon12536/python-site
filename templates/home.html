@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+    <!-- Background image -->
+    <div class="p-5 text-center bg-image" style="
+        background-image: url('https://images.pexels.com/photos/1591373/pexels-photo-1591373.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+        height: 400px;
+        margin-top: 58px;
+      ">
+      <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+        <div class="d-flex justify-content-center align-items-center h-100">
+          <div class="text-white">
+            <h1 class="mb-3">Bienvenidos a mi sitio web realizado con Python y Flask</h1>
+            <a class="btn btn-outline-light btn-lg" href="{{'about'}}" role="button">Da click aquí</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Background image -->
+
+{% endblock %}
